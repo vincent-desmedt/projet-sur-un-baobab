@@ -1,0 +1,28 @@
+.header-nav{
+    background-color: $navigationBackground;
+
+    &__label:before{
+        font: 2rem $glyphs;
+        color: $linkColor;
+        line-height: $navigationHeight;
+        content: "";
+        cursor: pointer;
+    }
+
+    &__toogle{
+        position: absolute;
+        left: -101%;
+        visibility: hidden;
+    }
+
+    &__elt{
+        font-size: 1.5rem;
+        padding: 1rem $containerMargin;
+        background-color: $linkColor;
+        border-bottom: 1px solid $textColor;
+    }
+
+    &__link{
+        color: $textColor;
+    }
+}

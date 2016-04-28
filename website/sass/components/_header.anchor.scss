@@ -1,0 +1,18 @@
+.anchor{
+
+    &__elt+&__elt{
+        margin-top: 1rem;
+    }
+
+    &__link:before{
+        font: 1rem $glyphs;
+        content: "";
+        color: $listStyleColor;
+    }
+
+    &__link:active:before{
+        font-family: $glyphs;
+        content: "";
+        color: $linkbackground;
+    }
+}

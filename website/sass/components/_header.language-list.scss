@@ -1,0 +1,15 @@
+.language-list{
+    line-height: $navigationHeight;
+
+    &__link{
+        line-height: $navigationHeight;
+        display: inline-block;
+    }
+
+    &__img{
+        width: 2rem;
+        height: auto;
+        vertical-align: middle;
+    }
+
+}

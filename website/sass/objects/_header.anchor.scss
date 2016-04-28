@@ -1,0 +1,12 @@
+.anchor{
+    &__list{
+        position: fixed;
+        right: $containerMargin;
+        top: 50%;
+        margin-top: -7rem;
+    }
+
+    &__elt{
+        font-size: 0;
+    }
+}

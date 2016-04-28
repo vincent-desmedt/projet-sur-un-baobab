@@ -1,0 +1,16 @@
+.form{
+
+    &__input,&__textarea,button#send{
+        font-family: $robotoCondensed;
+        text-transform: uppercase;
+        border: none;
+        padding: 1rem;
+        background-color: $inputColor;
+    }
+
+    button#send{
+        background-color: $linkbackground;
+        color: $linkColor;
+    }
+
+}

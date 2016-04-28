@@ -1,0 +1,7 @@
+.news{
+    margin: 0 $ContainerMarginThreeTimes $containerMargin $containerMargin;
+
+    &__heading{
+        margin-bottom: $containerMargin;
+    }
+}

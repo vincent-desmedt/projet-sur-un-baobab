@@ -1,0 +1,21 @@
+.article{
+    text-align: center;
+    background-color: $linkbackground;
+    border: 1px solid $navigationBackground;
+
+    &__link{
+        display: block;
+        padding: $ContainerMarginTwice;
+    }
+
+    &__datetime{
+        display: block;
+        margin-bottom: $containerMargin;
+        color: $textColor;
+        font-size: 1.285714285714286rem;
+    }
+}
+
+.article+.article{
+    margin-top: $containerMargin;
+}

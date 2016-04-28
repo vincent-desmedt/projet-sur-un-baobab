@@ -1,0 +1,13 @@
+.language-list{
+    position: fixed;
+    top: 0;
+    right: $containerMargin;
+
+    &__elt{
+        display: inline-block;
+    }
+
+    &__elt+&__elt{
+        margin-left: 1.5rem;
+    }
+}

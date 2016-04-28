@@ -1,0 +1,34 @@
+html,body {
+    font: normal 14px/18px $roboto;
+}
+
+a{
+    font-family: $robotoCondensed;
+    text-decoration: none;
+    color: $linkColor;
+}
+
+h2{
+    font: normal 1.5rem $robotoCondensed;
+}
+
+h3{
+    font-size:  1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: $textColor;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $textColor;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $textColor;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $textColor;
+}

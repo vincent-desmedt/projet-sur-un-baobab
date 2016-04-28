@@ -1,0 +1,14 @@
+.donation{
+    margin-top: $navigationHeight;
+
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    &__link{
+        float: right;
+        margin: $containerMargin;
+    }
+}

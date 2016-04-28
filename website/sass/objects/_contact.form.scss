@@ -1,0 +1,12 @@
+.form{
+    &__label{
+        font-size: 0;
+        position: absolute;
+    }
+
+    &__input,&__textarea,button#send{
+        width: 90%;
+        display: block;
+        margin-bottom: 1rem;
+    }
+}

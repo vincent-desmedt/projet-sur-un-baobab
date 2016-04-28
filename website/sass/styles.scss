@@ -1,0 +1,40 @@
+// 1. Settings - Variables globales
+@import "settings/paths";
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/sizes";
+
+// 2. Tools - Mixins globaux, functions & outils
+@import "tools/utils";
+
+// 3. Generic - Style de remise à zéro (reset, normalize…)
+@import "generic/meyer-reset";
+@import "generic/box-sizing";
+
+// 4. Base - Éléments bruts
+@import "base/root";
+
+// 5. Objects - Éléments de mise en forme non-cosmétique
+@import "objects/header";
+@import "objects/header.header-nav";
+@import "objects/header.language-list";
+@import "objects/header.logo";
+@import "objects/header.donation";
+@import "objects/header.aim";
+@import "objects/header.anchor";
+@import "objects/video";
+@import "objects/news";
+@import "objects/news.article";
+@import "objects/pictures";
+@import "objects/contact";
+@import "objects/contact.form";
+
+// 6. Components - Design des composants, morceaux d'UI
+@import "components/header";
+@import "components/header.header-nav";
+@import "components/header.language-list";
+@import "components/header.donation";
+@import "components/header.aim";
+@import "components/header.anchor";
+@import "components/pictures";
+@import "components/contact.form";
